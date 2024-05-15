@@ -34,5 +34,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64/v8
           push: true
-          target: prod
           tags: ${{ secrets.DAVISXERG }}/${{ github.event.repository.name }}:latest
