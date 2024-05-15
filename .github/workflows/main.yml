@@ -33,6 +33,6 @@ jobs:
         with:
           context: .
           platforms: linux/amd64,linux/arm64/v8
-          target: prod
+          target: PROD
           push: true
           tags: ${{ secrets.DAVISXERG }}/${{ github.event.repository.name }}:latest-$(git rev-parse --short HEAD)  # Adds a version based on commit hash
