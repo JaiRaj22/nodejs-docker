@@ -30,5 +30,4 @@ const jobschema = new mongoose.Schema({
         required: [true, 'user is required']
     }
 })
-
 export default mongoose.model('Job', jobschema)
